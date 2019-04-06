@@ -36,7 +36,7 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
-
+// This is a higher order function where if variables aren't found within the local scope, the function will reach out to the global scope to see if the variable exists, if not it will return as undefined.
 
 const external = "I'm outside the function";
 
