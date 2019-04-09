@@ -30,13 +30,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach --> doesn't return anything
+
+.map --> this creates a new array and it doesn't change the old one and you have to have the return value
+
 2. What is the difference between a function and a method?
+
+function is code that can be used when called. 
+
+methods are types of functions that are inside objects that can be run.
 
 3. What is closure?
 
+closures are functions within a function. The scope is very important because the local functions can access attributes within the nested function
+
 4. Describe the four rules of the 'this' keyword.
 
+implicit --> what's left of the dot
+explicit --> call, apply, bind for the this keyword
+window --> default binding, this is when there is no context to this
+bind --> sets a this context and returns a new function of the same name with a bound this context.
+
 5. Why do we need super() in an extended class?
+
+super is used when we want to extend classes down to another class. You pass in whatever attributes you desire so the new class can inherit it.
 
 ## Project Set up
 
